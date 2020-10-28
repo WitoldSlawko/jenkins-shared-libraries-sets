@@ -1,1 +1,4 @@
-# jenkins-shared-libraries-sets
+# Jenkins Shared Library
+
+#### Run Tests
+- `mvn clean test`
