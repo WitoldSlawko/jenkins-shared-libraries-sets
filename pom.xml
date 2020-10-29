@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
-    <artifactId>jenkins-shared-library</artifactId>
+    <artifactId>jenkins-shared-libraries-sets</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
     <description>Testing a Pipeline Shared Library with Spock</description>
@@ -40,8 +40,8 @@
         <log.logback.version>1.2.3</log.logback.version>
         <log.slf4j.version>1.7.25</log.slf4j.version>
 
-        <sonar.projectName>jenkins-shared-library</sonar.projectName>
-        <sonar.projectKey>jenkins-shared-library</sonar.projectKey>
+        <sonar.projectName>jenkins-shared-libraries-sets</sonar.projectName>
+        <sonar.projectKey>jenkins-shared-libraries-sets</sonar.projectKey>
         <sonar.sources>src,vars</sonar.sources>
         <sonar.tests>test</sonar.tests>
         <sonar.groovy.jacoco.reportPath>target/jacoco.exec</sonar.groovy.jacoco.reportPath>
